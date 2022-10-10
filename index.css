@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     border: 0px;
+    font-family: 'Playfair Display', serif;
 }
 
 body{
@@ -18,7 +19,6 @@ header{
 
 h1#hero{
     text-align: justify;
-    font-family: 'Aboreto';
     font-size: small;
 }
 
