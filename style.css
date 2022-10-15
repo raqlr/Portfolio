@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    left: '';
     font-family: 'Playfair Display', serif;
 }
 
@@ -8,7 +9,7 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #eff4fd;
+    background: whitesmoke;
 }
 
 nav{
@@ -37,7 +38,28 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: rgb(62, 62, 148);
+    color: rgb(92, 62, 148);
+}
+
+.icon-bar{
+    top: 40%;
+    left: 0;
+    position: absolute;
+    justify-content: space-between;
+    color: rgb(92, 62, 148);
+}
+
+.icon-bar ul{
+    padding: initial;
+}
+
+.icon-bar ul li{
+    height: 40px;
+    width: 40px;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-top: 6px;
+    margin-top: 5px;
 }
 
 .detel{
@@ -52,7 +74,7 @@ nav ul li a:hover{
 }
 
 span{
-    color: rgb(62, 62, 148);
+    color: rgb(92, 62, 148);
 }
 
 .detel p{
@@ -72,11 +94,11 @@ span{
 }
 
 .detel a:hover{
-    background-color: rgb(62, 62, 148);
+    background-color: rgb(92, 62, 148);
 }
 
 .images{
-   width: 45%;
+   width: 35%;
    height: 90%;
    position: absolute;
    bottom: 0;
@@ -84,16 +106,17 @@ span{
 }
 
 .shape{
-    height: 90%;
-    border-radius: 18%;
-    left: 10%;
+    height: 60%;
+    position: absolute;
+    justify-content: center;
+    padding: 30%;
 }
 
 .me{
     height: 60%;
     width: fit-content;
     left: 40%;
-    padding: 95px;
+    padding: 30%;
     border-radius: 50%;
 }
 
@@ -111,4 +134,29 @@ span{
 
 .images:hover .me{
     left: 45%;
+}
+
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    padding-top: 100px;
+}
+
+h2{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.projects{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
 }
