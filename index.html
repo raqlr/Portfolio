@@ -16,13 +16,14 @@
     <div class="hero">
         <nav>
             <img src="imgs/logo.png" class="logo">
-            <ul>
+            <ul id="menuList">
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#About Me">ABOUT</a></li>
-                <li><a href="#Projects">PROJECTS</a></li>
+                <li><a href="https://raqs-bot.github.io/InovaWeb/" target="_blank">INOVAWEB</a></li>
                 <!-- Link below for DOWNLOAD -->
-                <li><a href="">RESUME</a></li>
+                <li><a href="imgs/Resume.png" target="_blank">RESUME</a></li>
             </ul>
+            <img src="imgs/image-removebg-preview.png" class="menu-icon" onclick="togglemenu()">
         </nav>
 
         <div class="icon-bar">
@@ -36,31 +37,40 @@
         </div>
         <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
 
-        <div class="detel">
-            <h1>I'm Raquel <span>Rigoni</span></h1>
-            <p>This is a draft of my portfolio website.
-                <br> All experiences and projects will soon be added below.
-            </p>
-            <a href="mailto:rrbcostaa@gmail.com" target="_blank">MAIL ME</a>
-        </div>
-
         <div class="images">
             <img src="imgs/violet.png" class="shape">
             <img src="imgs/me3.png" class="me">
         </div>
+
+        <div class="detel">
+            <h1>I'm Raquel <span>Rigoni</span></h1>
+            <p>I'm a first-year student at UVV.
+                <br> All experiences and projects will soon be added below.
+            </p>
+            <a href="mailto:rrbcostaa@gmail.com" target="_blank">MAIL ME</a>
+        </div>
     </div>
 
-    <section class="about">
-        <!-- "About" section -->
-        <h2>About Me</h2>
-        <p>I'm a Science Computer freshman at University of Vila Velha.<br>Next year, I plan to start internship and develop my knowledge in programming language.</p>
-        <p>Outside of work, I'm interested in following the developments of science. I enjoy playing video games, making TikToks, and reading diverse genres of literature.</p>
-    </section>
+    <script>
 
-    <section class="projects">
-        <h2>Projects</h2>
-        <p>InovaWeb, first website ever made.</p>
-    </section>
+        var menuList=document.getElementById("menuList");
+
+        menuList.style.maxHeight="0px";
+
+        function togglemenu(){
+
+            if(menuList.style.maxHeight=="0px")
+                {
+                    menuList.style.maxHeight="130px";
+                }
+            else
+                {
+                    menuList.style.maxHeight="0px";
+                }
+
+        }
+
+    </script>
 
     <footer>
         <h6>Built & Designed by raqs-bot</h6>
