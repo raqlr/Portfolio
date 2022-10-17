@@ -113,7 +113,7 @@ span{
 
 .images{
    width: 30%;
-   height: 85%;
+   height: 75%;
    position: absolute;
    bottom: 0;
    right: 100px; 
@@ -150,31 +150,39 @@ span{
     left: 45%;
 }
 
-.about section{
+section#about{
     display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 0;
+
 }
 
 .about{
     text-align: justify;
-    justify-content: right;
     display: flex;
     flex-direction: column;
-    width: 60%;
-    justify-content: flex-start;
-    margin-left: 70px;
-    margin-top: 50px;
+    width: 40%;
+    justify-content: flex-end;
+    margin-left: 110px;
+    margin-top: 0px;
     margin-bottom: 50px;
+    margin-right: 0;
 }
 
 .about h1{
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 5px;
 }
 
-.about img{
+section#about img{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    margin-bottom: 50px;
+    width: 15%;
+    margin-left: 70px;
+    margin-right: 0;
 }
 
 .form{
@@ -196,7 +204,7 @@ footer{
     display: flex;
     justify-content: center;
     padding: 5px;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 @media only screen and (max-width:600px){
@@ -240,6 +248,29 @@ footer{
         margin-left: 80px;
         margin-bottom: 120px;
         width: 65%;
+    }
+
+    section#about{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+    
+    }
+    
+    .about{
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: center;
+        margin-left: 45px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    section#about img{
+        display: none;
     }
 
     .logo{
@@ -291,6 +322,29 @@ footer{
         width: 65%;
     }
 
+    section#about{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+    
+    }
+    
+    .about{
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: center;
+        margin-left: 45px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    section#about img{
+        display: none;
+    }
+
     .logo{
         width: 10%;
         margin-left: 10px;
@@ -340,6 +394,29 @@ footer{
         margin-bottom: 90px;
         width: 65%;
     }
+
+    section#about{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+    
+    }
+    
+    .about{
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: center;
+        margin-left: 45px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    section#about img{
+        display: none;
+    }
 }
 
 @media only screen and (max-width:900px){
@@ -383,6 +460,29 @@ footer{
         margin-left: 80px;
         margin-bottom: 100px;
         width: 65%;
+    }
+
+    section#about{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+    
+    }
+    
+    .about{
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        justify-content: center;
+        margin-left: 45px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+
+    section#about img{
+        display: none;
     }
 
     .logo{
