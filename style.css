@@ -269,6 +269,10 @@ footer{
         margin-right: 0;
     }
 
+    .about h1{
+        text-align: center;
+    }
+
     section#about img{
         display: none;
     }
@@ -339,6 +343,10 @@ footer{
         margin-top: 50px;
         margin-bottom: 50px;
         margin-right: 0;
+    }
+
+    .about h1{
+        text-align: center;
     }
 
     section#about img{
@@ -414,6 +422,10 @@ footer{
         margin-right: 0;
     }
 
+    .about h1{
+        text-align: center;
+    }
+
     section#about img{
         display: none;
     }
@@ -479,6 +491,10 @@ footer{
         margin-top: 50px;
         margin-bottom: 50px;
         margin-right: 0;
+    }
+
+    .about h1{
+        text-align: center;
     }
 
     section#about img{
