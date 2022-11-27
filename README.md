@@ -1,5 +1,5 @@
 # Portfolio
 
-An attempt to get 10/10 at Web first big project.
+An attempt to get a 10/10 at Web first big project.
 
 Web project CC1M
